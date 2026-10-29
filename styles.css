@@ -1,66 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>fili menu</title>
-    <link href="styles.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="menu">
-      <main>
-        <h1>fili menu</h1>
-        <p class="established">Est. 2024</p>
-        <hr />
+body {
+  background-color: rgb(106, 82, 86);
+  font-family: sans-serif;
+  padding: 20px;
+}
 
-        <section>
-          <h2>coffee</h2>
-          
-          <article class="item">
-            <p class="flavor">freddo espresso</p><p class="price">3.00</p>
-          </article>
-          <article class="item">
-            <p class="flavor">caramel macchiato</p><p class="price">3.75</p>
-          </article>
-          <article class="item">
-            <p class="flavor">freddo cappuccino</p><p class="price">3.50</p>
-          </article>
-          <article class="item">
-            <p class="flavor">hazelnut</p><p class="price">4.00</p>
-          </article>
-          <article class="item">
-            <p class="flavor">mocha</p><p class="price">4.50</p>
-          </article>
-        </section>
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
 
-        <section>
-          <h2>brunch</h2>
-          
-          <article class="item">
-            <p class="dessert">avocado toast & poached egg</p><p class="price">7.50</p>
-          </article>
-          <article class="item">
-            <p class="dessert">eggs benedict</p><p class="price">8.50</p>
-          </article>
-          <article class="item">
-            <p class="dessert">truffle scrambled eggs</p><p class="price">8.00</p>
-          </article>
-          <article class="item">
-            <p class="dessert">greek breakfast bowl</p><p class="price">7.00</p>
-          </article>
-        </section>
-      </main>
+h2 {
+  font-size: 30px;
+}
 
-      <hr class="bottom-line" />
+.established {
+  font-style: italic;
+}
 
-      <footer>
-        <address>
-          <p>
-            <a href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
-          </p>
-          <p class="address">Thessaloniki, Greece</p>
-        </address>
-      </footer>
-    </div>
-  </body>
-</html>
+h1, h2, p {
+  text-align: center;
+  color: rgb(28, 10, 10);
+}
+
+.menu {
+  width: 80%;
+  background-color: rgb(222, 205, 183);
+  border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+
+hr {
+  height: 2px;
+  background-color: rgb(28, 10, 10);
+  border-color: rgb(28, 10, 10);
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+  color: rgb(58, 37, 37);
+}
+
+.price {
+  text-align: right;
+  width: 25%;
+  color: rgb(58, 37, 37);
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 14px;
+}
+
+address {
+  font-style: normal;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: rgb(28, 10, 10);
+}
+
+a:visited {
+  color: rgb(58, 37, 37);
+}
+
+a:hover {
+    color: rgb(106, 82, 86);
+}
