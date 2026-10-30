@@ -45,7 +45,9 @@ hr {
 }
 
 h1, h2 {
-  font-family: Impact, serif;
+  font-family: arial;
+  letter-spacing: -2px;
+ font-weight: bold;
 }
 
 .item p {
