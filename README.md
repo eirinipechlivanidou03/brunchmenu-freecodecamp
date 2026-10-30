@@ -12,4 +12,4 @@ This project was originally inspired by the **Cafe Menu** practice project on fr
 - **Layout & Alignment:** Aligning menu items and prices side-by-side using `display: inline-block` and percentage widths.
 - **Centering & Flow:** Clean element centering using `margin: auto` with max-width boundaries.
 
-<img width="1470" height="812" alt="Στιγμιότυπο οθόνης 2026-10-29, 10 33 24 μμ" src="https://github.com/user-attachments/assets/51d39b2f-cdaa-4c30-9797-1aabc5f4d432" />
+<img width="1470" height="712" alt="Στιγμιότυπο οθόνης 2026-10-30, 8 26 38 μμ" src="https://github.com/user-attachments/assets/3d7eb8df-019b-4da2-98db-b1389d15b049" />
