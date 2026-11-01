@@ -13,3 +13,5 @@ This project was originally inspired by the **Cafe Menu** practice project on fr
 - **Centering & Flow:** Clean element centering using `margin: auto` with max-width boundaries.
 
 <img width="1470" height="712" alt="Στιγμιότυπο οθόνης 2026-10-30, 8 26 38 μμ" src="https://github.com/user-attachments/assets/3d7eb8df-019b-4da2-98db-b1389d15b049" />
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fd0d02bc-bad4-46d0-9da9-dc40c1f7faf5/deploy-status)](https://app.netlify.com/projects/filimenu/deploys)
